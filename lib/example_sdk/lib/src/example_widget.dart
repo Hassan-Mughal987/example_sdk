@@ -8,7 +8,7 @@ class ExampleWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Text(
-      "Hey $name 👋",
+      "Hello $name 👋",
       style: const TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
     );
   }
